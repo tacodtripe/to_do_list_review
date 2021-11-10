@@ -1,13 +1,3 @@
-/* eslint-disable no-unused-vars */
-import _ from 'lodash';
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css';
-import { setLocalStorage, updateLocalStorage } from './modules/local_storage.js';
-import {
-  addTask, editDescription, deleteTask, updateTaskIndex,
-} from './modules/crud.js';
-
 const toDoListCointainer = document.getElementById('toDoListContainer');
 const newTaskInput = document.getElementById('newTaskInput');
 const toDoList = [];
